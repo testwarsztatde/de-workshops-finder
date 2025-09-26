@@ -10,13 +10,13 @@ import pandas as pd
 import streamlit as st
 from io import BytesIO
 
-CONTACT_EMAIL = os.getenv("CONTACT_EMAIL", "twoj-mail@domena.pl")
+CONTACT_EMAIL = os.getenv("CONTACT_EMAIL", "wisniewskia579@gmai.com")
 USER_AGENT = f"de-workshop-finder/zip/1.0 (mailto:{CONTACT_EMAIL})"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 
-st.set_page_config(page_title="DE Workshops — kod pocztowy", page_icon="📮", layout="wide")
-st.title("📮 DE Workshops — wyszukiwanie po kodzie pocztowym")
+st.set_page_config(page_title="Wyszukiwanie warsztatów w DE - wersja test Przemo", page_icon="📮", layout="wide")
+st.title("📮 DE Werkstatt — wpisz kod pocztowy i szukaj")
 
 # --- Helpery ---
 def haversine_km(lat1, lon1, lat2, lon2):

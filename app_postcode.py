@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 from io import BytesIO
 
-CONTACT_EMAIL = os.getenv("CONTACT_EMAIL", "twoj-mail@domena.pl")
+CONTACT_EMAIL = os.getenv("CONTACT_EMAIL", "wisniewskia579@gmail.com")
 USER_AGENT = f"de-workshop-finder/zip/1.0 (mailto:{CONTACT_EMAIL})"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"

@@ -16,7 +16,7 @@ NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 
 st.set_page_config(page_title="Wyszukiwanie warsztatów w DE - wersja test Przemo", page_icon="📮", layout="wide")
-st.title("📮 DE Werkstatt — wpisz kod pocztowy i szukaj")
+st.title("📮 Wyszukiwanie warsztatów w DE - wersja test Przemo")
 
 # --- Helpery ---
 def haversine_km(lat1, lon1, lat2, lon2):
